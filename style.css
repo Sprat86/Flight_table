@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+body {
+    background: #FFEFD7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header__title {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    color: #524f4e;
+    font-size: 40px;
+    /*font-weight: 300;*/
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+    width: 1000px;
+    margin: 40px auto;
+}
+
+.wrapper__button, .wrapper__input button {
+    width: 180px;
+    height: 45px;
+    font-size: 30px;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #9b5d4fbd inset, 0 0 0 0 #9b5d4fbd;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+
+.wrapper__button:hover, .wrapper__input button:hover {
+    box-shadow: 0 0 10px 0 #6ab1d7 inset, 0 0 10px 4px #6ab1d7;
+    color: #6ab1d7;
+}
+
+.button__active {
+    width: 180px;
+    height: 45px;
+    font-family: 'Comfortaa', cursive;
+    color: yellow;
+    background-image: linear-gradient(45deg, #9b5d4fbd 0%, #33d9de 50%, #9b5d4fbd 100%);
+    box-shadow: 0 0 0 0 rgba(0,40,120,0);
+    transition: .5s;
+}
+
+.wrapper__input {
+    background: #A3D0C3;
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.wrapper__input input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #474f3f;
+}
+
+.wrapper__input button {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    height: 55px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+div {
+    margin: 5px;
+    padding: 5px;
+    border: 1px dotted white;
+}
+
+.wrapper__table {
+    display: table;
+    font-size: 14px;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px #F2906B;
+    color: #452F21;
+    background: #F2906B;
+}
+
+.table__row--header {
+    display: table-cell;
+    font-family: 'Comfortaa', cursive;
+    color: #524f4e;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 8px;
+    background: #F2906B;
+}
+
+
+.table__row {
+    display: table-row;
+    border-bottom: 5px solid  #F2906B;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.table__cell{
+    font-size: 18px;
+    display: table-cell;
+    padding: 10px 8px;
+    background: white;
+}
+
+.footer__copyright {
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    color: #524f4e;
+}
+
+

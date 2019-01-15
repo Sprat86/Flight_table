@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Табло Шереметьево</title>
+</head>
+<body>
+
+<header class="header">
+    <h1 class="header__title">Табло рейсов аэропорта "Шереметьево"</h1>
+</header>
+
+<main>
+    <div class="wrapper">
+        <div class="wrapper__buttons">
+            <a class="wrapper__button wrapper__button--departure" type="submit">Вылет</a>
+            <a class="wrapper__button wrapper__button--arrival" type="submit">Прилет</a>
+            <a class="wrapper__button wrapper__button--delayed" type="submit">Задержаны</a>
+        </div>
+        <div class="wrapper__input">
+            <input type="search" name="search-flight" value="" placeholder="Введите номер рейса (только цифры)">
+            <button type="submit">Найти</button>
+        </div>
+        <div class="wrapper__table">
+            <div class="table__row">
+                <div class="table__row--header">&#8470;</div>
+                <div class="table__row--header">Город вылета</div>
+                <div class="table__row--header">Город назначения</div>
+                <div class="table__row--header">Воздушное судно</div>
+                <div class="table__row--header">Рейс</div>
+                <div class="table__row--header">Аэропорт назначения</div>
+                <div class="table__row--header">Терминал</div>
+                <div class="table__row--header">Время прилёта</div>
+            </div>
+        </div>
+    </div>
+
+
+</main>
+
+<footer>
+    <p class="footer__copyright">Разработано Боткиным Александром <a href="https://github.com/Sprat86" >https://github.com/Sprat86</a></p>
+    <span class="footer__copyright">Информация взята с сайта компании <a href="https://www.svo.aero/ru/main" >&nbsp;АО&nbsp;«Международный&nbsp;аэропорт&nbsp;Шереметьево»</a></span>
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+</html>
+
+
+
